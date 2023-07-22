@@ -1,0 +1,33 @@
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0px;
+    gap: 50px;
+}
+.logo{
+    width: 50px;
+}
+header{
+    background-color: #f5f5f5;
+}
+.dropdown-menu.show{
+    padding-left: 10px;
+}
+.dropdown-menu.show li{
+    cursor: pointer;
+}
+.dropdown-toggle{
+    cursor: pointer;
+}
+.user-content{
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.user-content p {
+    font-size: 20px;
+    font-weight: 600;
+}
